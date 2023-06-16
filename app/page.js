@@ -160,7 +160,7 @@ export default function Home() {
               {checkIns.length > 0 &&
                 checkIns.map((checkIn) => (
                   <tr
-                    className=" dark:text-gray-600 bg-white"
+                    className=" dark:text-gray-600 bg-white border-2"
                     onClick={() => handleCheck(checkIn.id)}
                     key={checkIn.id}
                   >
