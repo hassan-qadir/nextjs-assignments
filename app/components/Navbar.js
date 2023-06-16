@@ -3,23 +3,9 @@ import Link from "next/link";
 const Navbar = () => {
   return (
     <>
-      <nav className="navbar navbar-light bg-light justify-content-between px-5">
-        <a className="navbar-brand">AAA</a>
-        <ul className="font-medium flex flex-col  md:flex-row md:space-x-8">
-          <li>
-            <Link href={""} className="block text-gray-500" aria-current="page">
-              feedback
-            </Link>
-          </li>
-          <li>
-            <Link href={""} className="block text-gray-500">
-              Support
-            </Link>
-          </li>
-        </ul>
-      </nav>
+   
 
-      {/* <header className="relative">
+      {<header className="relative">
         <nav class="bg-white border-b dark:border-gray-200 dark:bg-gray-50">
           <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">
             <span class="self-center text-2xl whitespace-nowrap dark:text-dark">
@@ -71,7 +57,7 @@ const Navbar = () => {
             </div>
           </div>
         </nav>
-      </header> */}
+      </header>}
     </>
   );
 };
