@@ -38,7 +38,7 @@ const Navbar = () => {
               <ul class="font-medium flex flex-col md:p-0 mt-3 md:flex-row md:space-x-8 md:mt-0">
                 <li>
                   <Link
-                    href={"/"}
+                    href={""}
                     class="block text-gray-500 md:p-0"
                     aria-current="page"
                   >
@@ -47,7 +47,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <Link
-                    href={"/contact"}
+                    href={""}
                     class="block text-gray-500 md:p-0"
                   >
                     Support
